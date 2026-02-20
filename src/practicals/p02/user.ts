@@ -1,8 +1,8 @@
 export class User {
 
-    firstname: string |""
-    lastname: string |""
-    age: number |""
+    public firstname: string ="";
+    public lastname: string ="";
+    private age: number = 0;
 
     static BIRTH_YEAR = 2000;
 
