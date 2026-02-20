@@ -5,26 +5,26 @@ export class Car {
 
    
 
-    start(brand:string, model:string){
+    start(brand, model){
         this.brand = brand;
         this.model = model;
        return console.log(`${this.brand} ${this.model} is starting...`);
     }
 
-    accelerate(brand:string, model:string){
+    accelerate(brand, model){
         this.brand = brand;
         this.model = model; 
         return console.log(`${this.brand} ${this.model} is accelerating...`);
     }
     
 
-    brake(brand:string, model:string   ){
+    brake(brand, model ){
         this.brand = brand;
         this.model = model;
         return console.log(`${this.brand} ${this.model} is braking...`);
     }
         
-    stop(brand:string, model:string){
+    stop(brand, model){
         this.brand = brand;
         this.model = model;
         return console.log(`${this.brand} ${this.model} is stopping...`);    
