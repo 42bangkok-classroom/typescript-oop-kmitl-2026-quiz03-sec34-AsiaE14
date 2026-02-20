@@ -1,7 +1,7 @@
 export class Car {
 
-     brand: string 
-    model: string 
+     brand: string ;
+    model: string ;
 
     en(brand: string, model: string){
         this.brand = brand;
@@ -10,18 +10,18 @@ export class Car {
 
    
 
-    start(){
+    start():string{
        
        return console.log(`${this.brand} ${this.model} is starting...`);
     }
 
-    accelerate(){
+    accelerate():string{
        
         return console.log(`${this.brand} ${this.model} is accelerating...`);
     }
     
 
-    brake(){
+    brake():string{
        
         return console.log(`${this.brand} ${this.model} is braking...`);
     }
