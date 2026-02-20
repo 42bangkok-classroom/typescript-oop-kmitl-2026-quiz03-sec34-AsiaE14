@@ -1,7 +1,7 @@
 export class Car {
 
-     brand: string | ""
-    model: string | ""
+     brand: string 
+    model: string 
 
     en(brand: string, model: string){
         this.brand = brand;
