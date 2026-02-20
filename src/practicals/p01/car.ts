@@ -1,32 +1,33 @@
 export class Car {
 
-    brand: string | undefined
-    model: string | undefined
+     brand: string | ""
+    model: string | ""
+
+    en(brand: string, model: string){
+        this.brand = brand;
+        this.model = model;
+    }
 
    
 
-    start(brand, model){
-        this.brand = brand;
-        this.model = model;
+    start(){
+       
        return console.log(`${this.brand} ${this.model} is starting...`);
     }
 
-    accelerate(brand, model){
-        this.brand = brand;
-        this.model = model; 
+    accelerate(){
+       
         return console.log(`${this.brand} ${this.model} is accelerating...`);
     }
     
 
-    brake(brand, model ){
-        this.brand = brand;
-        this.model = model;
+    brake(){
+       
         return console.log(`${this.brand} ${this.model} is braking...`);
     }
         
-    stop(brand, model){
-        this.brand = brand;
-        this.model = model;
+    stop(){
+       
         return console.log(`${this.brand} ${this.model} is stopping...`);    
     }
 }
