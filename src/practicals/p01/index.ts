@@ -1,15 +1,15 @@
-import { Car } from "./car";
+import { Car } from "./car.ts";
 
 const car = new Car();
 
 car.brand = "Toyota";
 car.model = "Camry";
 
-car.start();
+car.start(car.brand, car.model);
 // Toyota Camry is starting...
-car.accelerate();
+car.accelerate(car.brand, car.model);
 // Toyota Camry is accelerating...
-car.brake();
+car.brake(car.brand, car.model)  ;
 // Toyota Camry is braking...
-car.stop();
+car.stop(car.brand, car.model);
 // Toyota Camry is stopping...
